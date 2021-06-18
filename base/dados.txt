@@ -1,0 +1,6 @@
+webhost
+
+host: localhost
+bd: id16934917_handy
+user: id16934917_lucas
+senha: %H5iY=Row|/K~Bq{

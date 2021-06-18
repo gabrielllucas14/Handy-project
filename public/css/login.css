@@ -1,0 +1,393 @@
+body {
+    /*font-size: 14pt;*/
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.bloco1 {
+    float: left;
+    width: 55%;
+}
+
+.bloco2 {
+    float: right;
+    width: 45%;
+}
+
+#boxCadastrar {
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#boxCadastrar p label{
+    font-family: 'Bree Serif', serif;
+    color: #B683F9;
+  }
+
+label{
+    font-family: 'Bree Serif', serif;
+    color: #B683F9;
+}
+
+h2 {
+    color: rgba(71, 22, 246, 1);    
+}
+
+input {
+    padding: 0.7rem;
+    font-size: 10pt;
+    border: 1px solid rgba(71, 22, 246, 1); 
+    border-radius: 5px;
+}
+
+.link {
+    color: rgba(71, 22, 246, 1);
+}
+
+.btn-login {
+    width: 100%;
+    background-color: rgba(71, 22, 246, 1);
+    color: white;
+    font-weight: bold;
+}
+
+
+  
+
+/*
+  
+  
+  main .segundo .bloco2 .gratis h3{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  main .segundo .bloco2 .gratis p{
+    margin-left: 30px;
+    margin-bottom: 33px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    
+  }
+  
+  main .segundo .bloco2 .premium{
+    width: 27%;
+    height: 30%;
+    background-color: white;
+    color: rgb(103, 2, 143);
+    margin-right: 19%;
+    border-radius: 7px;
+    box-shadow: 1px 0.5px 15px 8px rgb(194, 152, 219);
+  }
+  
+  main .segundo .bloco2 .premium h3{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+  } 
+  
+  main .segundo .bloco2 .premium p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    
+  }
+  
+  main .segundo .bloco2 .premium .preco{
+    display: flex;
+    font-weight: bolder;
+  }
+  
+  footer button{
+    cursor: pointer;
+    width: 3%;
+    border-radius: 100px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    background-color: rgb(103, 59, 160);
+    
+    color: #ffffff;
+    font-weight:bolder;
+    font-size: 20px;
+    
+  
+  }
+  
+  .primeiro {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+  
+  } 
+  
+  #boxLogin{
+   margin-left: 220px;
+   background-color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    width: 55%;
+    height: 90%;
+    border-radius: 7px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 0.5px 15px 8px rgb(194, 152, 219);
+    
+    }
+  
+    #boxLogin p label{
+      font-family: 'Bree Serif', serif;
+      color: #B683F9;
+    }
+  
+    #emailLog{
+      border: 1px solid #B683F9;
+      margin: auto;
+      margin-bottom: 5px;
+      background-color: #ECECEC;
+      width: 60%;
+      border-radius: 7px;
+    }
+  
+    #senhaLog{
+      border: 1px solid #B683F9;
+      margin: auto;
+      background-color: #ECECEC;
+      width: 59%;
+      border-radius: 7px;
+    }
+  
+  .radioc{
+    padding-top: 15px;
+  
+  }
+  
+  #Tomador{
+    margin-left: 15px;
+  }
+  
+  #boxCadastrar {
+    margin-left: 30px;
+    background-color: white;
+    margin-right: 220px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 55%;
+    height: 90%;
+    box-shadow: 1px 0.5px 15px 8px rgb(194, 152, 219);
+    
+  }
+  
+  #boxCadastrar p label{
+      font-family: 'Bree Serif', serif;
+      color: #B683F9;
+    }
+  
+  #emailCad{
+    border: 1px solid #B683F9;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #ECECEC;
+    width: 60%;
+    border-radius: 7px;
+  }
+  
+  #senhaCad{
+    border: 1px solid #B683F9;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: #ECECEC;
+    width: 59%;
+    border-radius: 7px;
+  }
+  
+  
+  #cadastrarh2{
+    font-size: 28px;
+    font-family: 'Lora', cursive;
+    color: rgb(103, 2, 143);
+    font-weight: bolder;
+  }
+  
+  #loginh2{
+    font-size: 28px;
+    font-family: 'Lora', cursive;
+    color: rgb(103, 2, 143);
+    font-weight: bolder;
+  }
+  
+  #cadastrarForm{
+    width: 350px;
+    height: 220px;
+  }
+  
+  #loginForm{
+    width: 400px;
+    height: 220px;
+    
+  }
+  
+  .email{
+    width: 200px;
+    font-size: 18px;
+    margin-top: 15px;
+    
+  }
+  
+  .senha{
+    width: 200px;
+    font-size: 18px;
+    margin-top: 15px;
+    
+  }
+  
+  .botaoLimpar{
+    margin-left: 56%;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 5px;
+    border-color: rgb(194, 152, 219);
+    background: white;
+    border-radius: 7px;
+    color: rgb(103, 2, 143);
+    font-family: 'Lora', serif;
+  }
+  
+  .botaoLimpar2{
+    margin-left: 56%;
+    font-size: 18px;
+    margin-top: -50px;
+    padding: 5px;
+    border-color: rgb(194, 152, 219);
+    background: white;
+    border-radius: 7px;
+    color: rgb(103, 2, 143);
+    font-family: 'Lora', serif;
+  }
+  
+  .entrar{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+    background: rgb(116, 3, 161);
+    border-radius: 7px;
+    color: white;
+    font-family: 'Lora', serif;
+    
+  }
+  
+  .EsqueceuSenha{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 15%;
+  padding: 5px;
+  border-color: rgb(194, 152, 219);
+  background: white;
+  border-radius: 7px;
+  color: rgb(103, 2, 143);
+  font-family: 'Lora', serif;
+  
+  }
+  
+  a:link 
+  { 
+   text-decoration:none; 
+   color: rgb(103, 2, 143);
+  } 
+  
+  .entrar2{
+    color: white;
+  }
+  
+  .cadastrar2{
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    background: rgb(116, 3, 161);
+    border-radius: 7px;
+    color: white;
+    font-family: 'Lora', serif;
+    
+  }
+  
+  .botaoLimpar2{
+    margin-right: 87px;
+    font-size: 18px;
+    border-color: rgb(194, 152, 219);
+    background: white;
+    border-radius: 7px;
+    color: rgb(103, 2, 143);
+    padding: 5px;
+    font-family: 'Lora', serif;
+  }
+  
+  #conteudo-cad{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    padding: 5px;
+    
+  }
+  
+  
+  .cadastrar2:hover {
+      color: white;
+      cursor: pointer;
+      opacity: 0.5;
+  }
+  
+  .entrar:hover{
+      color: white;
+      cursor: pointer;
+      opacity: 0.5;
+  }
+  
+  .botaoLimpar2:hover {
+      background-color: rgb(230, 187, 255);
+      cursor: pointer;
+     
+  }
+  
+  .botaoLimpar:hover {
+      background-color: rgb(230, 187, 255);
+      cursor: pointer;
+     
+  }
+  
+  .EsqueceuSenha:hover {
+      background-color: rgb(230, 187, 255);
+      cursor: pointer;
+  }
+  
+  .corEntrar{
+    margin-left: 50px;
+  }
+  
+  #incorreto{
+    color: red;
+  }
+
+  */

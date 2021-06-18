@@ -1,0 +1,60 @@
+/**Menu Superiores **/
+
+* {
+    /*font-size: 14pt;*/
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: #180B3E;
+    width: 100%;
+    /*margin-top: 1%;*/
+}
+
+a {
+    text-decoration: none;
+    color: #E7DFDD;
+}
+
+.menu button {
+    background-color: #83B2F9;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu button:hover {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #83B2F9;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.nav a {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+main section img {
+    width: 80vh;
+    height: 66vh;
+}

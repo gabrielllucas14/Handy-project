@@ -1,0 +1,42 @@
+* {
+    font-size: 14pt;
+    padding: 0;
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    margin-top: 4%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    width: 40%;
+    float: left;
+}
+
+.sb {
+    /** Frase "Sobre Nós **/
+    width: 60%;
+    float: right;
+    margin-left: 30px;
+    margin-top: -4rem;
+}
+
+.sb h2 {
+    /** Paragrafo abaixo do Bem vindo  **/
+    font-size: 20pt;
+    color: #83B2F9;
+}
+
+.sb p {
+    color: white;
+    font-size: 146t;
+    margin: 0 auto;
+}
+
+.div-contatos {
+    margin-top: 2rem;
+}

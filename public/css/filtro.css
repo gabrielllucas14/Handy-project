@@ -1,0 +1,128 @@
+* {
+    font-size: 14pt;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E7DFDD;
+}
+
+.filtro {
+    /** borda do filtro border: 1px solid white; **/
+    width: 100%;
+    height: 150%;
+    margin: 50px auto;
+}
+
+.filtro label {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.filtro select {
+    font-size: 16px;
+    width: 20%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 7px;
+    /** background-color: black; **/
+    color: white;
+    outline: 0;
+    padding: 0 10px;
+    font: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.filtro button:hover {
+    opacity: 0.7;
+}
+
+
+/**footer button {
+    cursor: pointer;
+    width: 3%;
+    border-radius: 100px;
+    padding: 8px 5px;
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+footer button:hover {
+    opacity: 0.7;
+}  **/
+
+.usuarios {
+    margin-left: 10px;
+}
+
+.user {
+    /*visibility: hidden;*/
+    box-shadow: 0.3px 0.5px 10px 5px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    align-content: center;
+    margin-top: 30px;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+   
+}
+
+.user:hover {
+    opacity: 0.8;
+    color: white;
+}
+
+#naoEncontrou {
+    visibility: hidden;
+    box-shadow: 0.3px 0.5px 15px 8px #83B2F9;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    width: 90%;
+    color: white;
+}
+
+.busca {
+    background-color: #83B2F9;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    margin-left:30px ;
+}
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.img-td {
+    width: 130px;
+    height: 110px;
+
+    border-radius: 100%;
+    border: 1px solid gray;
+    margin:0 100px;
+}

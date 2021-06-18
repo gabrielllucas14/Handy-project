@@ -1,0 +1,83 @@
+* {
+    font-size: 14pt;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #E7DFDD;
+}
+
+.bemvindo {
+    /** Frase "vem vindo ao Handy **/
+    margin-left: 5%;
+    width: 38%;
+}
+
+.bemvindo h2 {
+    /** Paragrafo abaixo do Bem vindo  **/
+    font-size: 38pt;
+    color: #83B2F9;
+}
+
+.bemvindo p {
+    color: white;
+    font-size: 146t;
+    margin-top: 3%;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 5%;
+    float: left;
+}
+
+.botoes button {
+    background-color: #d62121;
+    width: 166px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_servico {
+    width: 166px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #83B2F9;
+    margin-left: 3rem;
+    background-color: #83B2F9 !important;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+button {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 5px;
+    border: none;
+}
+
+.img_1 {
+    width: 15vh;
+    height: 15vh;
+}
+
+section1 {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+main {
+    margin-top: 3.8rem;
+}
